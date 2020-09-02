@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3a41cdcf44f5a5875354f8f070e2200",
+    "revision": "cb825461137af2a3c89f7e20b53af62d",
     "url": "/wowCharacter/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wowCharacter/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "448f3688a6b4a38d2776",
+    "revision": "c55e5c74f9ce20b848dc",
     "url": "/wowCharacter/static/css/main.f6b953d3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wowCharacter/static/js/2.ac74984a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "448f3688a6b4a38d2776",
-    "url": "/wowCharacter/static/js/main.9446c4f8.chunk.js"
+    "revision": "c55e5c74f9ce20b848dc",
+    "url": "/wowCharacter/static/js/main.c0f389e4.chunk.js"
   },
   {
     "revision": "cdcf786fbd87a684f6b5",

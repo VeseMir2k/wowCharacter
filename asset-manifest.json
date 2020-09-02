@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wowCharacter/static/css/main.f6b953d3.chunk.css",
-    "main.js": "/wowCharacter/static/js/main.9446c4f8.chunk.js",
-    "main.js.map": "/wowCharacter/static/js/main.9446c4f8.chunk.js.map",
+    "main.js": "/wowCharacter/static/js/main.c0f389e4.chunk.js",
+    "main.js.map": "/wowCharacter/static/js/main.c0f389e4.chunk.js.map",
     "runtime-main.js": "/wowCharacter/static/js/runtime-main.3bf593be.js",
     "runtime-main.js.map": "/wowCharacter/static/js/runtime-main.3bf593be.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/wowCharacter/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.ac74984a.chunk.js": "/wowCharacter/static/js/2.ac74984a.chunk.js",
     "static/js/2.ac74984a.chunk.js.map": "/wowCharacter/static/js/2.ac74984a.chunk.js.map",
     "index.html": "/wowCharacter/index.html",
-    "precache-manifest.c6ece0016fb8fb07b03b202f6d31d0f5.js": "/wowCharacter/precache-manifest.c6ece0016fb8fb07b03b202f6d31d0f5.js",
+    "precache-manifest.da692c2e848d5c6523cdd96af140063d.js": "/wowCharacter/precache-manifest.da692c2e848d5c6523cdd96af140063d.js",
     "service-worker.js": "/wowCharacter/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/wowCharacter/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.f6b953d3.chunk.css.map": "/wowCharacter/static/css/main.f6b953d3.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.ac74984a.chunk.js",
     "static/css/main.f6b953d3.chunk.css",
-    "static/js/main.9446c4f8.chunk.js"
+    "static/js/main.c0f389e4.chunk.js"
   ]
 }
