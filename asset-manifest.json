@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/wowCharacter/static/css/main.ebd04a46.chunk.css",
-    "main.js": "/wowCharacter/static/js/main.76db6691.chunk.js",
-    "main.js.map": "/wowCharacter/static/js/main.76db6691.chunk.js.map",
+    "main.css": "/wowCharacter/static/css/main.f6b953d3.chunk.css",
+    "main.js": "/wowCharacter/static/js/main.9446c4f8.chunk.js",
+    "main.js.map": "/wowCharacter/static/js/main.9446c4f8.chunk.js.map",
     "runtime-main.js": "/wowCharacter/static/js/runtime-main.3bf593be.js",
     "runtime-main.js.map": "/wowCharacter/static/js/runtime-main.3bf593be.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/wowCharacter/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1098e866.chunk.js": "/wowCharacter/static/js/2.1098e866.chunk.js",
-    "static/js/2.1098e866.chunk.js.map": "/wowCharacter/static/js/2.1098e866.chunk.js.map",
+    "static/js/2.ac74984a.chunk.js": "/wowCharacter/static/js/2.ac74984a.chunk.js",
+    "static/js/2.ac74984a.chunk.js.map": "/wowCharacter/static/js/2.ac74984a.chunk.js.map",
     "index.html": "/wowCharacter/index.html",
-    "precache-manifest.221a0ec987d158a1af3ce7ab1d372a0b.js": "/wowCharacter/precache-manifest.221a0ec987d158a1af3ce7ab1d372a0b.js",
+    "precache-manifest.c6ece0016fb8fb07b03b202f6d31d0f5.js": "/wowCharacter/precache-manifest.c6ece0016fb8fb07b03b202f6d31d0f5.js",
     "service-worker.js": "/wowCharacter/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/wowCharacter/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.ebd04a46.chunk.css.map": "/wowCharacter/static/css/main.ebd04a46.chunk.css.map",
-    "static/js/2.1098e866.chunk.js.LICENSE.txt": "/wowCharacter/static/js/2.1098e866.chunk.js.LICENSE.txt"
+    "static/css/main.f6b953d3.chunk.css.map": "/wowCharacter/static/css/main.f6b953d3.chunk.css.map",
+    "static/js/2.ac74984a.chunk.js.LICENSE.txt": "/wowCharacter/static/js/2.ac74984a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3bf593be.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1098e866.chunk.js",
-    "static/css/main.ebd04a46.chunk.css",
-    "static/js/main.76db6691.chunk.js"
+    "static/js/2.ac74984a.chunk.js",
+    "static/css/main.f6b953d3.chunk.css",
+    "static/js/main.9446c4f8.chunk.js"
   ]
 }
