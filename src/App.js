@@ -13,11 +13,13 @@ class App extends React.Component {
     mediaData: null,
   };
 
-  accessToken = "USdo9w8wz2rX3FqfYrKY8JiuRWZ0qPWxR6";
+  accessToken = "USNU1N010NrTgn1D2bqiqQEwREzIn0YFkO";
 
   handleCharacterData = () => {
     fetch(
-      `https://eu.api.blizzard.com/profile/wow/character/${this.state.realm}/${
+      `https://${this.state.region.toLowerCase()}.api.blizzard.com/profile/wow/character/${
+        this.state.realm
+      }/${
         this.state.name
       }?namespace=profile-${this.state.region.toLowerCase()}&access_token=${
         this.accessToken
