@@ -6,6 +6,7 @@ import Character from "./components/Character.js";
 
 class App extends React.Component {
   state = {
+    accessToken: "",
     name: "thomgnar",
     realm: "burning-legion",
     region: "EU",
@@ -13,7 +14,24 @@ class App extends React.Component {
     mediaData: null,
   };
 
-  accessToken = "USNU1N010NrTgn1D2bqiqQEwREzIn0YFkO";
+  authorizationApi = btoa(
+    `${process.env.REACT_APP_CLIENT_ID}:${process.env.REACT_APP_CLIENT_SECRET}`
+  );
+
+  handleAPI = () => {
+    fetch("https://us.battle.net/oauth/token", {
+      body: "grant_type=client_credentials",
+      headers: {
+        Authorization: `Basic ${this.authorizationApi}`,
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      method: "POST",
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ accessToken: data.access_token });
+      });
+  };
 
   handleCharacterData = () => {
     fetch(
@@ -22,7 +40,7 @@ class App extends React.Component {
       }/${
         this.state.name
       }?namespace=profile-${this.state.region.toLowerCase()}&access_token=${
-        this.accessToken
+        this.state.accessToken
       }`
     )
       .then((response) => {
@@ -42,7 +60,7 @@ class App extends React.Component {
 
   handleMediaData = () => {
     fetch(
-      `${this.state.characterData.media.href}&access_token=${this.accessToken}`
+      `${this.state.characterData.media.href}&access_token=${this.state.accessToken}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -54,24 +72,18 @@ class App extends React.Component {
     let name = e.target.name;
     let value = e.target.value;
 
-    if (name === "name") {
-      this.setState({
-        name: value,
-      });
-    } else if (name === "realm") {
-      this.setState({
-        realm: value,
-      });
-    } else if (name === "region") {
-      this.setState({
-        region: value,
-      });
-    }
+    this.setState({
+      [name]: value,
+    });
   };
 
   handleClick = (e) => {
     e.preventDefault();
     this.handleCharacterData();
+  };
+
+  componentDidMount = () => {
+    this.handleAPI();
   };
 
   render() {
